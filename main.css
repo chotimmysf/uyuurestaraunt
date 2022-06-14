@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: 'Charis SIL', 'Garamond', serif;
+    color: #351063;
+}
+
+a {
+    color: blue;
+}
+
+.navbar {
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+
+.navbar a {
+    color: #550ab0;
+    background-color: #e2cefa;
+    font-size: 45px;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+}
