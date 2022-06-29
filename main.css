@@ -3,23 +3,54 @@
 * {
     font-family: 'Charis SIL', 'Garamond', serif;
     color: #351063;
+    text-align: center;
+    background-color: #f3c3f3;
+}
+
+h1 {
+    font-size: 144px;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+.sub-name {
+    font-size: 72px;
+    color: #632aa5;
+}
+
+#uyuuseal {
+    margin-left: 40%;
+    margin-right: 50%;
+    width: 20%;
 }
 
 a {
     color: blue;
 }
 
-.navbar {
-    list-style: none;
-    align-items: center;
-    display: flex;
-}
-
-.navbar a {
+.nav-list a {
     color: #550ab0;
-    background-color: #e2cefa;
     font-size: 45px;
     text-decoration: none;
-    align-items: center;
+    padding: 1rem;
+    background-color: #f5d7fa;
+    border-radius: 12rem;
+}
+
+.nav-list a:hover {
+    color: #e9cafd;
+    background-color: #12055c;
+}
+
+ul {
     display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
