@@ -1,3 +1,58 @@
-.sub-text {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: 'Josefin Slab','Charis SIL', 'Garamond', serif;
+    color: $gold-tan;
+    text-align: center;
+    background-color: $coffee;
+}
+
+h1 {
+    font-size: 144px;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+.sub-name {
+    font-size: 72px;
+    color: $lavender;
+}
+
+#uyuuseal {
+    margin-left: 40%;
+    margin-right: 50%;
+    width: 20%;
+}
+
+a {
+    color: $light-teal;
+}
+
+.nav-list a {
+    color: $burlywood;
+    font-size: 45px;
+    text-decoration: none;
+    padding: 1rem;
+    background-color: $coffee;
+    border-radius: 12rem;
+}
+
+.nav-list a:hover {
+    color: $lilac;
+    background-color: $dark-purple;
+    transition: 2sec;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }

@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
-    font-family: 'Charis SIL', 'Garamond', serif;
-    color: #351063;
+    font-family: 'Josefin Slab','Charis SIL', 'Garamond', serif;
+    color: #e7b88d;
     text-align: center;
-    background-color: #f3c3f3;
+    background-color: #42291a;
 }
 
 h1 {
@@ -22,7 +23,7 @@ h3 {
 
 .sub-name {
     font-size: 72px;
-    color: #632aa5;
+    color: #b0aeff;
 }
 
 #uyuuseal {
@@ -32,25 +33,43 @@ h3 {
 }
 
 a {
-    color: blue;
+    color: #aeedff;
 }
 
 .nav-list a {
-    color: #550ab0;
+    color: #deb886;
     font-size: 45px;
     text-decoration: none;
     padding: 1rem;
-    background-color: #f5d7fa;
+    background-color: #764a34;
     border-radius: 12rem;
 }
 
 .nav-list a:hover {
     color: #e9cafd;
     background-color: #12055c;
+    transition: 2sec;
 }
 
-ul {
+.nav-list {
     display: flex;
     justify-content: space-between;
     list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 2px;
+    font-size: 30px;
+}
+
+p {
+    font-size: 36px;
+}
+
+.menu-section {
+    color: #b0aeff;
 }
